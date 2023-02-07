@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@include file="common/header.jspf"%>
 
-<head>
-	<title>Welcome Page</title>
-</head>
+<%@include file="common/navigation.jspf"%>
+<div class="container">
 
-<body>
-	<h1>Welcome home!</h1>
-	<p>Your name is ${name}</p>
-	<p>Your password is ${password}</p>
-</body>
+	<h1>Welcome ${name}!</h1>
+	<hr>
+	<a href="list-todos">Manage</a> Todos.
+</div>
 
-</html>
+<%@include file="common/footer.jspf"%>
